@@ -139,7 +139,7 @@ enuErrorStatus_t TWI_WriteData(uint8_t data)
 }
 
 /************************************************************
-* Parameters (in) : None
+* Parameters (in) : uint8_t* pu8data
 * Parameters (out): None
 * Return Value    : enuErrorStatus_t - For error handling
 * Description     : Reading the data
