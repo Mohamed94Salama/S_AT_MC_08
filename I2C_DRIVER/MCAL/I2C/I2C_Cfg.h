@@ -30,6 +30,8 @@
 #define MT_R_DATA_ACK		0x50
 #define MT_R_DATA_NACK		0x58
 
-
+#define SL_SLA_W_ACK		0x60
+#define SL_R_DATA_ACK		0x80
+#define SL_R_DATA_NACK		0x88
 
 #endif /* I2C_CFG_H_ */
